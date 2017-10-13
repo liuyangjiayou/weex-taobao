@@ -1,0 +1,71 @@
+<template>
+    <div class="classBox">
+        <div class="classList">
+            <text class="blue">黄时简：</text>
+            <text class="black">图片收下了</text>
+        </div>
+        <div class="classList">
+            <text class="blue">金星路 </text>
+            <text class="blackTow">回复 </text>
+            <text class="blue">黄时简：</text>
+            <text class="black">下次再发点，把好看的都发出来，你随便选，挑好看的</text>
+        </div>
+        <div class="classList">
+            <text class="blue">黄时简：</text>
+            <text class="blackTow">回复 </text>
+            <text class="blue">金星路：</text>
+            <text class="black">坐等</text>
+        </div>
+        <div class="classList">
+            <text class="blues">查看全部评论（默认三条评论加回复）</text>
+        </div>
+    </div>
+</template>
+
+<script>
+    module.exports = {
+        data: {},
+        methods: {}
+    }
+</script>
+
+<style>
+    .classBox{
+        width: 670px;
+        margin-left: 40px;
+        margin-right: 40px;
+        word-break:break-all
+    }
+    .classList{
+        width: 670px;
+        height: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: row;
+        white-space: pre-wrap;
+        word-break:break-all;
+    }
+    .blue{
+        width: 86px;
+        height: 26px;
+        font-size: 24px;
+        color: #133a73;
+    }
+    .black{
+        width: 400px;
+        font-size: 24px;
+        color: #666666;
+        padding-right: 20px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .blackTow{
+        font-size: 24px;
+        color: #444444;
+    }
+    .blues{
+        font-size: 24px;
+        color: #133a73;
+    }
+</style>

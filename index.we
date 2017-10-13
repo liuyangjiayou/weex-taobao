@@ -1,0 +1,491 @@
+<template>
+    <scroller>
+        <div>
+            <div class="nav">
+                <div class="long">
+                    <text class="longText">淘宝优惠卷</text>
+                </div>
+                <div class="sousuo">
+                    <input class="sousuoInput" name="" id="" value="" placeholder="好宝贝 等你搜"/>
+                    <text class="sousuoBtn">搜索</text>
+                </div>
+                <div class="classfy">
+                    <image class="classfyImg" src=""></image>
+                    <text class="classfyText">分类</text>
+                </div>
+                <div class="infoProt">
+                    <image class="infoProtImg"></image>
+                    <text class="infoProtText">客户端</text>
+                </div>
+            </div>
+            <div class="slider">
+                <slider auto-play="true">
+                    <a href="###">
+                        <image src="https://img.alicdn.com/imgextra/i2/2508158775/TB2XPaNgLBNTKJjSszeXXcu2VXa_!!2508158775.jpg" class="sliderImg"></image>
+                    </a>
+                    <a href="###">
+                        <image src="https://img.alicdn.com/imgextra/i3/1015405008/TB2q334b8E_1uJjSZFOXXXNwXXa_!!1015405008.jpg" class="sliderImg"></image>
+                    </a>
+                    <a href="###">
+                        <image src="https://img.alicdn.com/imgextra/i3/1015405008/TB2vd9MgvNNTKJjSspcXXb4KVXa_!!1015405008.jpg" class="sliderImg"></image>
+                    </a>
+                </slider>
+
+            </div>
+            <div>
+                <ul class="navLists">
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/1.png" class="navListImg"></image>
+                            <text class="navListText">女装</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/2.png" class="navListImg"></image>
+                            <text class="navListText">男装</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/3.png" class="navListImg"></image>
+                            <text class="navListText">内衣</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/4.png" class="navListImg"></image>
+                            <text class="navListText">母婴</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/5.png" class="navListImg"></image>
+                            <text class="navListText">化妆品</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/6.png" class="navListImg"></image>
+                            <text class="navListText">居家</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/7.png" class="navListImg"></image>
+                            <text class="navListText">鞋包配饰</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/8.png" class="navListImg"></image>
+                            <text class="navListText">美食</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/9.png" class="navListImg"></image>
+                            <text class="navListText">文体车品</text>
+                        </a>
+                    </li>
+                    <li class="navListBox">
+                        <a class="navList" href="###">
+                            <image src="http://nnhong.cc/images/10.png" class="navListImg"></image>
+                            <text class="navListText">数码家电</text>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <nav class="preterential">
+                    <text class="preterentialLogo">优惠快讯</text>
+                    <text class="preterentialLogoTwo">游戏娱乐</text>
+                    <text class="preterentialContent">12星座，我我我说你啥好？</text>
+                </nav>
+
+                <div style="width: 750px;height: 40px;background-color: #faf5f6"></div>
+
+                <div class="dongdongBox">
+                    <text class="dongdong">咚咚抢</text>
+                    <div class="dongDateBox">
+                        <text class="dongDate">09:00</text>
+                        <text class="dongQiang">正在抢购</text>
+                    </div>
+                    <a href="###" class="dongMoreBox">
+                        <text class="dongMore">查看更多＞</text>
+                    </a>
+                </div>
+
+                <slider auto-play="true" style="width: 2250px;">
+                    <div class="rowList">
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="https://img.alicdn.com/imgextra/i4/1017194666/TB2_dvNXsrHK1JjSszeXXcuMFXa_!!1017194666.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="https://img.alicdn.com/imgextra/i1/2370805492/TB2GRGMlgMPMeJjy1XbXXcwxVXa_!!2370805492.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="https://img.alicdn.com/imgextra/i2/2671233560/TB2Q7iXshXlpuFjSsphXXbJOXXa_!!2671233560.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rowList">
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="//img.alicdn.com/imgextra/i1/3294765858/TB2gGmub5AKL1JjSZFoXXagCFXa_!!3294765858.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="https://img.alicdn.com/bao/uploaded/i1/TB1u3jVKpXXXXXnXXXXXXXXXXXX_!!0-item_pic.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="https://img.alicdn.com/imgextra/i4/2542685154/TB2u9FhqN3IL1JjSZPfXXcrUVXa_!!2542685154.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rowList">
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="https://img.alicdn.com/imgextra/i4/3284390560/TB2tTLHhN3IL1JjSZPfXXcrUVXa_!!3284390560.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="https://img.alicdn.com/imgextra/i4/627291547/TB2oTA.hjuhSKJjSspdXXc11XXa_!!627291547.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                        <div class="rowListBox">
+                            <a href="###" class="rowListImgBox">
+                                <image class="rowListImg" src="https://img.alicdn.com/imgextra/i3/2223709271/TB1jPdSX6JTMKJjSZFPXXbHUFXa_!!0-item_pic.jpg_240x240.jpg"></image>
+                                <text class="rowListImgText">御棉堂加厚法兰绒毯100*120cm</text>
+                            </a>
+                            <div class="rowListTextBox">
+                                <text class="rowListTextNum">￥12.8</text>
+                                <text class="rowListBond">劵后</text>
+                            </div>
+                        </div>
+                    </div>
+                </slider>
+
+                
+
+            </div>
+        </div>
+    </scroller>
+
+</template>
+
+<style>
+    .nav {
+        width: 750px;
+        height: 88px;
+        line-height: 88px;
+        background-color: #fe4a65;
+        flex-direction: row;
+        padding-left: 20px;
+        padding-top: 16px;
+        padding-right: 20px;
+        padding-bottom: 16px;
+        align-items: center;
+    }
+    .long {
+        width: 192px;
+        height: 56px;
+        font-weight: 900;
+    }
+    .longText {
+        height: 56px;
+        line-height: 56px;
+        font-size: 38px;
+        color: #fff;
+    }
+    .sousuo {
+        width: 346px;
+        height: 56px;
+        background-color: #fff;
+        margin-left: 16px;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        flex-direction: row;
+    }
+    .sousuoInput {
+        width: 290px;
+        height: 56px;
+        line-height: 56px;
+    }
+    .sousuoBtn {
+        width: 56px;
+        height: 56px;
+        line-height: 56px;
+        text-align: center;
+        font-size: 24px;
+        background-color: #999;
+    }
+
+    .classfy {
+        margin-left: 18px;
+        width: 60px;
+        height: 56px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .classfyText {
+        width: 56px;
+        font-size: 22px;
+        color: #fff;
+    }
+    .classfyImg {
+        width: 56px;
+        height: 30px;
+        background-color: #000;
+        margin-bottom: 5px;
+    }
+
+    .infoProt {
+        width: 70px;
+        height: 56px;
+        margin-left: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .infoProtText {
+        font-size: 22px;
+        color: #fff;
+    }
+    .infoProtImg {
+        width: 60px;
+        height: 30px;
+        background-color: black;
+        margin-bottom: 5px;
+    }
+
+    .slider {
+        width: 750px;
+        height: 312px;
+        margin-bottom: 24px;
+    }
+    .sliderImg {
+        width: 750px;
+        height: 312px;
+    }
+
+    .navLists {
+        width: 750px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .navListBox {
+        width: 150px;
+        height: 150px;
+    }
+    .navList {
+        width: 150px;
+        height: 150px;
+        flex-direction: column;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .navListImg {
+        width: 100px;
+        height: 100px;
+
+    }
+    .navListText {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .preterential{
+        width: 710px;
+        height: 32px;
+        flex-direction: row;
+        background-color: #faf5f6;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .preterentialLogo{
+        width: 160px;
+        height: 32px;
+        line-height: 32px;
+        color: #fe4a65;
+        font-size: 32px;
+        font-weight: 900;
+        padding-right: 15px;
+        border-right-width: 4px;
+        border-right-style: solid;
+        border-right-color: #e0e0e0;
+    }
+    .preterentialLogoTwo{
+        width: 130px;
+        height: 32px;
+        line-height: 32px;
+        color: #fe4c67;
+        font-size: 28px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    .preterentialContent{
+        height: 32px;
+        line-height: 32px;
+        color: #444;
+        font-size: 28px;
+    }
+
+    .dongdongBox{
+        width: 710px;
+        height: 32px;
+        padding-left: 10px;
+        border-left-style: solid;
+        border-left-width: 10px;
+        border-left-color: #fe4a65;
+        flex-direction: row;
+        margin-left: 20px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .dongdong{
+        width: 128px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #616161;
+    }
+    .dongDateBox{
+        width: 264px;
+        height: 32px;
+        flex-direction: row;
+    }
+    .dongDate{
+        width: 64px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 22px;
+        color: #fe4a65;
+    }
+    .dongQiang{
+        width: 100px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 22px;
+        color: #c7c7c7;
+    }
+    .dongMoreBox{
+        margin-left: 120px;
+    }
+    .dongMore{
+        width: 160px;
+        height: 32px;
+        line-height: 32px;
+        color: #bababa;
+        font-size: 28px;
+        margin-left: 50px;
+    }
+    .rowList{
+        flex-direction: row;
+    }
+    .rowListBox{
+        width: 212px;
+        margin-left: 32px;
+        flex-direction: column;
+    }
+    .rowListImgBox{
+        width: 212px;
+        flex-direction: column;
+    }
+    .rowListImg{
+        width: 212px;
+        height: 212px;
+    }
+    .rowListImgText{
+        width: 212px;
+        height: 24px;
+        margin-top: 20px;
+        margin-bottom: 6px;
+        font-size: 24px;
+        color: #b4b4b4;
+    }
+    .rowListTextBox{
+        flex-direction: row;
+    }
+    .rowListTextNum{
+        font-size: 30px;
+        height: 34px;
+        line-height: 34px;
+        color: #fe0000;
+    }
+    .rowListBond{
+        font-size: 30px;
+        height: 34px;
+        line-height: 34px;
+        color: #d1d1d1;
+        margin-left: 20px;
+    }
+</style>
+
+<script>
+    export default {
+        data: {
+            sliderSrc: ''//weex不能实现轮播，后台动态获取数据，使用setInterval方法，每秒去后台获取数据然后把路径赋值给sliderSrc
+        },
+        methods: {}
+    }
+</script>
